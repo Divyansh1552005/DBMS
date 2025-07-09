@@ -11,6 +11,8 @@ MySQL supports various data types categorized as follows:
 - `FLOAT` (Floating-point number)
 - `DOUBLE` (Double-precision floating-point number)
 
+- **`p` (precision)** = total number of **digits** that can be stored (both left and right of the decimal point).
+- **`s` (scale)** = number of **digits after the decimal point**.
 ## **2. String Data Types:**
 
 - `CHAR(n)` (Fixed-length string)

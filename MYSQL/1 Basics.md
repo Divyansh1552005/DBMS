@@ -18,13 +18,13 @@ It was developed in the 1970s at IBM by **Donald D. Chamberlin** and **Raymond F
 SQL (Structured Query Language) commands are categorized into different types based on their functionality.
 
 1. **Data Definition Language (DDL)**: These commands define and manage the structure of database objects like tables and schemas. Examples include `CREATE`, `ALTER`, `DROP`, `TRUNCATE`, and `RENAME`.
-    
+
 2. **Data Manipulation Language (DML)**: These commands handle data operations such as retrieval, insertion, modification, and deletion. Examples include `SELECT`, `INSERT`, `UPDATE`, and `DELETE`.
-    
+
 3. **Data Control Language (DCL)**: These commands control access and permissions to the database. The main commands are `GRANT` and `REVOKE`.
-    
+
 4. **Transaction Control Language (TCL)**: These commands manage database transactions to ensure consistency and integrity. Examples include `COMMIT`, `ROLLBACK`, and `SAVEPOINT`.
-    
+
 5. **Constraints**: Constraints define rules to ensure the accuracy and integrity of data in a table. Common constraints include `PRIMARY KEY`, `FOREIGN KEY`, `CHECK`, `UNIQUE`, `DEFAULT`, and `NOT NULL`.
 
 Note- **DQL (Data Query Language)** is a subset of SQL that focuses on retrieving data from the database. The primary command in DQL is:

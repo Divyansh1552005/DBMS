@@ -92,6 +92,7 @@ The `GROUP BY` clause is used to group rows that have the same values in specifi
 SELECT column_name, AGGREGATE_FUNCTION(column_name) FROM table_name GROUP BY column_name;
 ```
 group by ke baad vala colmname hi select k baad likh skte ho , aur koi nahi becoz group karne k baad aur chizo ko sense nahi banega think about it.
+
 ### **Example:**
 
 ```sql
@@ -266,3 +267,5 @@ WHERE emp.salary > AvgSalary.avg_salary;
 |**EXISTS / NOT EXISTS**|Checks for the existence of rows|`WHERE EXISTS (SELECT 1 FROM dept WHERE emp.dept_id = dept.dept_id);`|
 |**Common Table Expressions (CTEs)**|Uses temporary named result set|`WITH AvgSalary AS (...) SELECT * FROM emp, AvgSalary WHERE...;`|
 [[6 Different types of keys]]
+
+

@@ -112,3 +112,5 @@ A **composite key** is a **combination of two or more columns** that uniquely id
 ![[Pasted image 20250216192620.png]]
 
 
+[[7 Foreign key in detail]]
+
